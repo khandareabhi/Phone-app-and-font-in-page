@@ -1,0 +1,22 @@
+<html>
+<body>
+
+<script>
+
+function find(x){
+if(x.id.value!=x.pass.value){
+alert("invalid and wrong password");
+}
+else
+{
+location="website.html";
+}
+}
+</script>
+<body style="background-color:orange">
+<form name="frm">
+Username: <input type="text" name="id" ><br><hr>
+Password: <input type="password" name="pass"><br><hr>
+<input type="button" value="submit" onclick="find(this.form);">
+</body>
+</html>
